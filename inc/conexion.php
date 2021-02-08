@@ -1,5 +1,5 @@
 <?php
- $db = mysqli_connect("localhost","root","adminadmin","crm");
+$db = mysqli_connect("localhost", "root", "adminadmin", "crm");
 /*
  if(!$db){
      echo "conexion fallida";

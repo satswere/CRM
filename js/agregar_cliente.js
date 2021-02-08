@@ -26,7 +26,7 @@ function obtener_datos(e) {
 
   console.log(datos);
 }
-
+/*
 function enviar_fetch(cliente) {
   //console.log(cliente);
   fetch("./inc/envio_json.php", {
@@ -41,7 +41,7 @@ function enviar_fetch(cliente) {
       console.log(data);
     });
 }
-
+*/
 async function envar_async(cliente) {
   try {
     const res = await fetch("./inc/envio_json.php", {
